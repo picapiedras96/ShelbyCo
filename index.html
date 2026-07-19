@@ -4,44 +4,59 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>ShelbyCo</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Changa+One:ital@0;1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <div class="hero-content">
+  <main id="hero">
+    <div id="hero-content">
       <h1>Shelbyville Welcomes You!</h1>
-      <p>Come tatste the rural life</p>
     </div>
+    <p id="hero-text">Come tatste the rural life</p>
   </main>
 
-  <div>
-    <h2>Pick Out Your Own Fruits</h2>
-    <p>Check out Gillrain farms and pick your own fresh produce. Strawberries, pumpkins or vegtables.</p>
-  </div>
+  <section class="section">
+    <img class="section-image circular-image" src="images/pumpkin-patch.jpg" alt="a decent amount of pumpkins lined up in a field for a pumpkin patch"/>
+    <div class="section-content">
+      <h2>Pick Out Your Own Fruits</h2>
+      <p>Check out Gillrain farms and pick your own fresh produce. Strawberries, pumpkins or vegtables.</p>
+    </div>
+  </section>
 
-  <div>
-    <h2>Try the Best Burgers in KY</h2>
-    <p>Feeling hungry, head over to the Farm Kitchen. They only serve the best burgers in the state of KY.</p>
-  </div>
+  <section class="section">
+    <img class="section-image circular-image" src="images/farm-kitchen.jpg" alt="extesnive looking men board"/>
+    <div class="section-content">
+      <h2>Try the Best Burgers in KY</h2>
+      <p>Feeling hungry, head over to the Farm Kitchen. They only serve the best burgers in the state of KY.</p>
+    </div>
+  </section>
 
-  <div>
-    <h2>Check Out Some Local Distilleries</h2>
-    <p>Getting a little thirsty, why don’t you check out some of the local whiskey producers and have a tour!</p>
-  </div>
+  <section class="section">
+    <img class="section-image circular-image" src="images/buffalo-trace.avif" alt="water tower with image of buffalo trace logo"/>
+    <div class="section-content">
+      <h2>Check Out Some Local Distilleries</h2>
+      <p>Getting a little thirsty, why don’t you check out some of the local whiskey producers and have a tour!</p>
+    </div>
+  </section>
 
-  <footer>
-    <p>&copy; 2026 Shelbyville, KY</p>
-  </footer>
+  <section id="contact">
+    <div id="contact-container">
+      <div id="contact-hero">
+        <img id="contact-image" id="conatct image" class="circular-image" src="images/pedro_ibarra.JPG" alt="image of Pedro, the tour guide standing on a bridge giving a welcomeming smile"/>
+        <h2>Your Guide to Shelbyville</h2>
+      </div>
+      <div id="contact-intro">
+        <p>Pedro Ibarra is a Shelbyville local and he knows the best places and events happening in the area. If you are interested in visiting Shelbyville, he is the perfect guide to help you out! With his enthusiasm and knowledge, he will make sure you have a great time in Shelbyville.</p>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Shelbyville, KY</p>
+    </footer>
+  </section>
 </body>
 </html>
