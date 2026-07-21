@@ -125,7 +125,57 @@ h3 {
     font-size: 0.625rem;
 }
 
+/* desktop styles */
 
+@media (min-width: 64rem) {
+
+    html {
+        scroll-snap-type: none;
+    }
+
+    h2 {
+        font-size: 1.7rem;
+    }
+
+    #hero,
+    #contact,
+    .section {
+        min-height: auto;
+        scroll-snap-align: none;
+        scroll-snap-stop: normal;
+    }
+
+    #hero {
+        min-height: 50vh;
+    }
+
+    #hero-content {
+        font-size: 2.18rem;
+    }
+
+    #hero-text {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .desktop-container {
+        display: flex;
+    }
+
+    .section-image {
+        width: 150px;
+    }
+
+    #contact {
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    footer > p {
+        margin: 40px 0 0 0px;
+        font-size: 1rem;
+    }
+}
 /* contact card keyframe animations */
 
 @keyframes shake {
